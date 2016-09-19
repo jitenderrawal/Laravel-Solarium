@@ -83,6 +83,5 @@ return array(
 		'items_per_page' => 10,
 	),
 	'uri' => 'search',
-
 	'use_package_routes' => true,
 );
