@@ -12,7 +12,7 @@ class LaravelSolariumModelObserver {
 	protected function getModelConfig($model)
 	{
 		$nameSpacedClass = get_class($model);
-		return \Config::get('laravel-solarium::models.'.$nameSpacedClass);
+		return config('laravel-solarium.models.'.$nameSpacedClass);
 	}
 
     public function activeCores($model)
